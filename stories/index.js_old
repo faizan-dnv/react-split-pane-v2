@@ -1,0 +1,35 @@
+import React from 'react';
+
+import BasicHorizontal from './BasicHorizontal';
+import BasicNested from './BasicNested';
+import BasicStep from './BasicStep';
+import BasicVertical from './BasicVertical';
+import PercentageHorizontal from './PercentageHorizontal';
+import PercentageVertical from './PercentageVertical';
+import SnapToPostion from './SnapToPosition';
+
+import InlineStyles from './InlineStyles';
+import MultipleHorizontal from './MultipleHorizontal';
+import MultipleVertical from './MultipleVertical';
+import NestedHorizontal from './NestedHorizontal';
+import NestedVertical from './NestedVertical';
+import Subcomponent from './Subcomponent';
+
+import './index.css';
+
+export const BasicHorizontalStory = { component: <BasicHorizontal /> };
+export const BasicNestedStory = { component: <BasicNested /> };
+export const BasicStepStory = { component: <BasicStep /> };
+export const BasicVerticalStory = { component: <BasicVertical /> };
+export const PercentageHorizontalStory = {
+  component: <PercentageHorizontal />,
+};
+export const PercentageVerticalStory = { component: <PercentageVertical /> };
+export const SnapToPositionStory = { component: <SnapToPostion /> };
+
+export const InlineStylesStory = { component: <InlineStyles /> };
+export const MultipleHorizontalStory = { component: <MultipleHorizontal /> };
+export const MultipleVerticalStory = { component: <MultipleVertical /> };
+export const NestedHorizontalStory = { component: <NestedHorizontal /> };
+export const NestedVerticalStory = { component: <NestedVertical /> };
+export const SubcomponentStory = { component: <Subcomponent /> };

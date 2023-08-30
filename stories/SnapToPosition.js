@@ -1,5 +1,6 @@
 import React from 'react';
 import SplitPane from '../src';
+import './index.css';
 
 export default class SnapToPositionExample extends React.Component {
   constructor(props) {
@@ -89,3 +90,4 @@ export default class SnapToPositionExample extends React.Component {
     );
   }
 }
+export const SnapToPositionExampleComponent = () => <SnapToPositionExample />;
