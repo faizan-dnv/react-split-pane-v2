@@ -9,7 +9,7 @@
     "dist",
     "index.d.ts"
   ],
-  "version": "0.1.92",
+  "version": "0.1.00",
   "repository": {
     "type": "git",
     "url": "https://github.com/faizan-dnv/react-split-pane-v2"
