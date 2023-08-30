@@ -5,7 +5,7 @@ addons.setConfig({
   theme: create({
     base: 'light',
     brandTitle: 'React Split Pane',
-    brandUrl: 'https://github.com/tomkp/react-split-pane',
+    brandUrl: 'https://github.com/faizan-dnv/react-split-pane-v2',
     gridCellSize: 12,
   }),
 });

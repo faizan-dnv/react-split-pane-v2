@@ -1,11 +1,6 @@
 # React Split Pane
 
-[![NPM version](https://img.shields.io/npm/v/react-split-pane.svg?style=flat)](https://www.npmjs.com/package/react-split-pane)
-![NPM license](https://img.shields.io/npm/l/react-split-pane.svg?style=flat)
-[![NPM total downloads](https://img.shields.io/npm/dt/react-split-pane.svg?style=flat)](https://npmcharts.com/compare/react-split-pane?minimal=true)
-[![NPM monthly downloads](https://img.shields.io/npm/dm/react-split-pane.svg?style=flat)](https://npmcharts.com/compare/react-split-pane?minimal=true)
-![Build Test](https://github.com/tomkp/react-split-pane/workflows/Build%20Test/badge.svg)
-[![Coverage Status](https://img.shields.io/coveralls/tomkp/react-split-pane/master.svg?style=flat)](https://coveralls.io/r/tomkp/react-split-pane)
+[![Build Test](https://github.com/faizan-dnv/react-split-pane-v2/actions/workflows/build-test.yml/badge.svg?branch=master)](https://github.com/faizan-dnv/react-split-pane-v2/actions/workflows/build-test.yml)
 
 Split-Pane React component, can be nested or split vertically or horizontally!
 
@@ -191,14 +186,6 @@ Thanks to `background-clip: padding-box;` for making transparent borders possibl
 }
 ```
 
-## New Version
-
-**I'm working on an updated version of this library, and looking for help:**
-
-Demo
-
-http://react-split-pane-v2.surge.sh/
-
 Install
 
 ```sh
@@ -222,14 +209,6 @@ import SplitPane, { Pane } from 'react-split-pane';
   </Pane>
 </SplitPane>;
 ```
-
-Pull request
-
-https://github.com/tomkp/react-split-pane/pull/240
-
-More discussion
-
-https://github.com/tomkp/react-split-pane/issues/233
 
 ## Contributing
 
